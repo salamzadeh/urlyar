@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: URLYar\n"
+"POT-Creation-Date: 2019-01-25 11:42+0330\n"
+"PO-Revision-Date: 2019-01-25 11:42+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: urlyar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: include/options_page.php:130
+msgid "URLYar URL Shortener"
+msgstr "کوتاه کننده یو آر ال یار"
+
+#: include/options_page.php:134
+msgid "Options"
+msgstr "تنظیمات"
+
+#: include/options_page.php:136
+msgid "General"
+msgstr "عمومی"
+
+#: include/options_page.php:137
+msgid "Additional Features"
+msgstr "امکانات بیشتر"
+
+#: include/options_page.php:156
+msgid "Main Settings"
+msgstr "تنظیمات اصلی"
+
+#: include/options_page.php:160
+msgid "URL Shortener Integration"
+msgstr "کوتاه کننده URL"
+
+#: include/options_page.php:165
+msgid ""
+"Enable Short URL generation using your <a href=\"#shorturl_selector"
+"\">configured service<a/>."
+msgstr ""
+"با استفاده از <a href=\"#shorturl_selector\">تنظیمات انجام شده</a> خود، "
+"تولید URL کوتاه را فعال کنید ."
+
+#: include/options_page.php:170
+msgid "Use Permalinks for Short URLs"
+msgstr "از پیوندهای یکتا برای URL های کوتاه استفاده کنید"
+
+#: include/options_page.php:175
+#, php-format
+msgid ""
+"Use your <a href=\"%s/wp-admin/options-permalink.php\">permalinks</a> to "
+"generate the Short URL."
+msgstr ""
+"از <a href=\"%s/wp-admin/options-permalink.php\">پیوندهای یکتا</a> برای "
+"تولید URL کوتاه استفاده کنید."
+
+#: include/options_page.php:176
+msgid ""
+"(Default: \"http://yoursite/?p=123\" or \"http://yoursite/?page_id=123\")"
+msgstr ""
+"(پیش فرض: \"http: // yoursite /؟ p = 123\" یا \"http: // yoursite /؟ page_id "
+"= 123\")"
+
+#: include/options_page.php:180
+msgid "Append Short URL to: "
+msgstr "اضافه کردن URL کوتاه به:"
+
+#: include/options_page.php:184 include/options_page.php:267
+msgid "Posts (Homepage)"
+msgstr "نوشته ها (صفحه اصلی)"
+
+#: include/options_page.php:188 include/options_page.php:271
+msgid "Posts (Individual)"
+msgstr "نوشته های (داخلی)"
+
+#: include/options_page.php:192 include/options_page.php:275
+msgid "Pages"
+msgstr "برگه‌ها"
+
+#: include/options_page.php:196
+msgid "Products"
+msgstr "محصولات"
+
+#: include/options_page.php:200
+msgid "Text before Short URL link "
+msgstr "متن قبل از لینک کوتاه لینک"
+
+#: include/options_page.php:219
+msgid "Nice ID"
+msgstr "شناسه خوب"
+
+#: include/options_page.php:223
+msgid "Nice ID URLs"
+msgstr "URL های شناسه خوب"
+
+#: include/options_page.php:224
+msgid "(Formally named template_redirection)"
+msgstr "(به طور معمول به نام template_redirection)"
+
+#: include/options_page.php:228
+msgid ""
+"Allows usage of \"http://yoursite/123\" instead of \"http://yoursite/?p=123\""
+msgstr ""
+"به \"http: // yoursite /؟ p = 123\" اجازه استفاده از \"http: // yoursite / "
+"123\" را می دهد"
+
+#: include/options_page.php:233
+msgid "Nice ID URL Prefix"
+msgstr "پیشوند دلخواه URL های شناسه خوب"
+
+#: include/options_page.php:237
+msgid ""
+"default: \"/\"  (http://yoursite/123)</span>\n"
+"                        <p>Examples:\n"
+"                            <br />\"<span class=\"red\">prefix/</span>\" = "
+"http://yoursite/<span class=\"red\">prefix/</span>123\n"
+"                            <br />\"<span class=\"red\">prefix-</span>\" = "
+"http://yoursite/<span class=\"red\">prefix-</span>123\n"
+"                        </p>"
+msgstr ""
+"به طور پیش فرض: \"/\" (http: // yoursite / 123) </span>\n"
+"<p style=\";text-align:right;direction:rtl\"> مثال ها: \n"
+"                            <br />\"<span class=\"red\">prefix/</span>\" = "
+"http://yoursite/<span class=\"red\">prefix/</span>123\n"
+"                            <br />\"<span class=\"red\">prefix-</span>\" = "
+"http://yoursite/<span class=\"red\">prefix-</span>123\n"
+"                        </p>"
+
+#: include/options_page.php:246
+msgid "Shortcode"
+msgstr "کد کوتاه"
+
+#: include/options_page.php:250
+msgid "Disable Shortcode [urlyar_shortlink]"
+msgstr "غیر فعال کردن شورتکد [urlyar_shortlink]"
+
+#: include/options_page.php:255
+msgid "Disables the usage of URL Shortener shortcode [urlyar_shortlink]"
+msgstr ""
+"استفاده از شورتکد کوتاه کننده لینک [urlyar_shortlink] را غیرفعال می کند"
+
+#: include/options_page.php:260
+msgid "QR Code"
+msgstr "کد کیو آر"
+
+#: include/options_page.php:263
+msgid "Append QR Code to: "
+msgstr "اضافه کردن QR به:"
+
+#: include/options_page.php:279
+msgid "QR Code Provider "
+msgstr "سرویس دهنده QR"
+
+#. Plugin Name of the plugin/theme
+#: include/options_page.php:284 urlyar.php:418
+msgid "URLYar"
+msgstr "URLYar"
+
+#: include/options_page.php:289
+msgid "Google"
+msgstr "گوگل"
+
+#: include/options_page.php:294
+msgid "Text before QR Code "
+msgstr "متن قبل از کد QR"
+
+#: include/options_page.php:353
+msgid "URL Service Configuration"
+msgstr "پیکربندی سرویس URL"
+
+#: include/options_page.php:354
+msgid "Select and configure your desired Short URL service."
+msgstr "سرویس کوتاه کننده URL دلخواه خود را انتخاب و تنظیم کنید"
+
+#: include/options_page.php:355
+msgid ""
+"<span class=\"red\">*</span> are required configurations for that service."
+msgstr "<span class=\"red\">*</span> تنظیمات برای آن سرویس الزامی است."
+
+#: include/options_page.php:360 include/options_page.php:368
+msgid "Select"
+msgstr "انتخاب"
+
+#: include/options_page.php:361 include/options_page.php:369
+msgid "Services"
+msgstr "سرویس ها"
+
+#: include/options_page.php:363 include/options_page.php:371
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#: include/options_page.php:409 include/options_page.php:435
+msgid "User/ID"
+msgstr "شناسه کاربری"
+
+#: include/options_page.php:421
+msgid "Key/API"
+msgstr "Key / API Key مشتری"
+
+#: include/options_page.php:438
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: include/options_page.php:442
+msgid "URL to the YOURLS API"
+msgstr "آدرس مربوط وب سرویس"
+
+#: include/options_page.php:451
+msgid "Service/Domain"
+msgstr "خدمات / دامنه"
+
+#: include/options_page.php:485
+msgid "No Configuration Needed"
+msgstr "بدون نیاز به پیکربندی"
+
+#: include/options_page.php:551
+msgid ""
+"<strong>Service Configuration: </strong>Please fill the required User/ID"
+msgstr ""
+"<strong>پیکربندی سرویس:</strong> لطفا کاربر / شناسه مورد نیاز را پر کنید"
+
+#: include/options_page.php:559
+msgid ""
+"<strong>Service Configuration: </strong>Please fill in the required API/Key"
+msgstr "<strong>پیکربندی سرویس:</strong> لطفا API / کلید مورد نیاز را پر کنید"
+
+#: include/options_page.php:576
+msgid "Save Changes"
+msgstr "ذخیره‌ی تغییرات"
+
+#: include/options_page_help.php:6
+msgid "More Information"
+msgstr "اطلاعات بیشتر"
+
+#: include/options_page_help.php:7
+msgid ""
+"Additional information and upgrade notes are available via the plugin's <a "
+"href=\"http://salamzadeh.net/plugins/urlyar/docs/url-shortener-wordpress-"
+"plugin\">Wiki Page</a>"
+msgstr ""
+"اطلاعات اضافی و نکات ارتقاء از طریق <a href=\"http://salamzadeh.net/plugins/"
+"urlyar/docs/url-shortener-wordpress-plugin\">صفحه ویکی</a> پلاگین قابل "
+"دسترسی است"
+
+#: include/options_page_help.php:9
+msgid ""
+"Do check out the <a href=\"http://salamzadeh.net/plugins/urlyar/docs/url-"
+"shortener-wordpress-plugin/faq\">FAQ</a> and <a href=\"http://salamzadeh.net/"
+"plugins/urlyar/docs/url-shortener-wordpress-plugin/known-issues\">Known "
+"Issues</a> as well"
+msgstr ""
+"همچنین بخش های <a href=\"http://salamzadeh.net/plugins/urlyar/docs/url-"
+"shortener-wordpress-plugin/faq\">سوالات متداول</a> و <a href=\"http://"
+"salamzadeh.net/plugins/urlyar/docs/url-shortener-wordpress-plugin/known-"
+"issues\">مسائل شناخته شده</a> را بررسی کنید"
+
+#: include/options_page_help.php:12
+msgid "Version References"
+msgstr "مراجع نسخه"
+
+#: include/options_page_help.php:14
+msgid "Plugin Version: "
+msgstr "ورژن افزونه:"
+
+#: include/options_page_help.php:18
+msgid "Shortener Modules"
+msgstr "ماژول های کوتاه کننده"
+
+#: include/options_page_help.php:22
+msgid "Name"
+msgstr "نام"
+
+#: include/options_page_help.php:23
+msgid "Description"
+msgstr "توضیحات"
+
+#: include/options_page_help.php:24
+msgid "ID"
+msgstr "آیدی"
+
+#: include/options_page_help.php:46
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: include/options_page_help.php:47
+msgid "You can get support for the plugin via the following channels: "
+msgstr ""
+"شما می توانید از طریق کانال های زیر در خصوص افزونه پشتیبانی دریافت کنید:"
+
+#: include/options_page_help.php:48
+msgid ""
+"<a href=\"http://wordpress.org/tags/url-shortener\">WordPress Support Forum</"
+"a>"
+msgstr ""
+"<a href=\"http://wordpress.org/tags/url-shortener\">انجمن پشتیبانی وردپرس</a>"
+
+#: include/options_page_help.php:49
+msgid "<a href=\"https://www.salamzadeh.net/contact/\">Send me a message</a>"
+msgstr "<a href=\"https://www.salamzadeh.net/contact/\">برایم پیام بفرست</a>"
+
+#: include/options_page_help.php:51
+msgid ""
+"If you like this plugin and would like to <a href=\"http://salamzadeh.net/"
+"plugins/urlyar/contribute/\">Contribute</a> back, I'll be very grateful!"
+msgstr ""
+"اگر این افزونه را دوست دارید و مایل به <a href=\"http://salamzadeh.net/"
+"plugins/urlyar/contribute/\">کمک هستید</a> ، بسیار سپاسگزارم!"
+
+#: urlyar.php:388 urlyar.php:452
+msgid "Get Shortlink"
+msgstr "دریافت پیوندک"
+
+#. Plugin URI of the plugin/theme
+msgid "https://salamzadeh.net/plugins/urlyar"
+msgstr "https://salamzadeh.net/plugins/urlyar"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin provides integration of URL Shorteners (e.g. urlyar.ir, trew.ir, "
+"fsda.ir, saqw.ir and what you want)."
+msgstr ""
+"این افزونه خدمات کوتاه کردن لینک را فراهم می کند (مانند urlyar.ir، trew.ir، "
+"fsda.ir، saqw.ir و آنچه شما بخواهید)."
+
+#. Author of the plugin/theme
+msgid "Sasan Salamzadeh"
+msgstr "ساسان سلام زاده"
+
+#. Author URI of the plugin/theme
+msgid "http://www.salamzadeh.net"
+msgstr "http://www.salamzadeh.net"

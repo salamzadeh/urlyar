@@ -1,0 +1,311 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URLYar\n"
+"POT-Creation-Date: 2019-01-25 11:42+0330\n"
+"PO-Revision-Date: 2019-01-25 00:38+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: urlyar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: include/options_page.php:130
+msgid "URLYar URL Shortener"
+msgstr ""
+
+#: include/options_page.php:134
+msgid "Options"
+msgstr ""
+
+#: include/options_page.php:136
+msgid "General"
+msgstr ""
+
+#: include/options_page.php:137
+msgid "Additional Features"
+msgstr ""
+
+#: include/options_page.php:156
+msgid "Main Settings"
+msgstr ""
+
+#: include/options_page.php:160
+msgid "URL Shortener Integration"
+msgstr ""
+
+#: include/options_page.php:165
+msgid ""
+"Enable Short URL generation using your <a href=\"#shorturl_selector"
+"\">configured service<a/>."
+msgstr ""
+
+#: include/options_page.php:170
+msgid "Use Permalinks for Short URLs"
+msgstr ""
+
+#: include/options_page.php:175
+#, php-format
+msgid ""
+"Use your <a href=\"%s/wp-admin/options-permalink.php\">permalinks</a> to "
+"generate the Short URL."
+msgstr ""
+
+#: include/options_page.php:176
+msgid ""
+"(Default: \"http://yoursite/?p=123\" or \"http://yoursite/?page_id=123\")"
+msgstr ""
+
+#: include/options_page.php:180
+msgid "Append Short URL to: "
+msgstr ""
+
+#: include/options_page.php:184 include/options_page.php:267
+msgid "Posts (Homepage)"
+msgstr ""
+
+#: include/options_page.php:188 include/options_page.php:271
+msgid "Posts (Individual)"
+msgstr ""
+
+#: include/options_page.php:192 include/options_page.php:275
+msgid "Pages"
+msgstr ""
+
+#: include/options_page.php:196
+msgid "Products"
+msgstr ""
+
+#: include/options_page.php:200
+msgid "Text before Short URL link "
+msgstr ""
+
+#: include/options_page.php:219
+msgid "Nice ID"
+msgstr ""
+
+#: include/options_page.php:223
+msgid "Nice ID URLs"
+msgstr ""
+
+#: include/options_page.php:224
+msgid "(Formally named template_redirection)"
+msgstr ""
+
+#: include/options_page.php:228
+msgid ""
+"Allows usage of \"http://yoursite/123\" instead of \"http://yoursite/?p=123\""
+msgstr ""
+
+#: include/options_page.php:233
+msgid "Nice ID URL Prefix"
+msgstr ""
+
+#: include/options_page.php:237
+msgid ""
+"default: \"/\"  (http://yoursite/123)</span>\n"
+"                        <p>Examples:\n"
+"                            <br />\"<span class=\"red\">prefix/</span>\" = "
+"http://yoursite/<span class=\"red\">prefix/</span>123\n"
+"                            <br />\"<span class=\"red\">prefix-</span>\" = "
+"http://yoursite/<span class=\"red\">prefix-</span>123\n"
+"                        </p>"
+msgstr ""
+
+#: include/options_page.php:246
+msgid "Shortcode"
+msgstr ""
+
+#: include/options_page.php:250
+msgid "Disable Shortcode [urlyar_shortlink]"
+msgstr ""
+
+#: include/options_page.php:255
+msgid "Disables the usage of URL Shortener shortcode [urlyar_shortlink]"
+msgstr ""
+
+#: include/options_page.php:260
+msgid "QR Code"
+msgstr ""
+
+#: include/options_page.php:263
+msgid "Append QR Code to: "
+msgstr ""
+
+#: include/options_page.php:279
+msgid "QR Code Provider "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: include/options_page.php:284 urlyar.php:418
+msgid "URLYar"
+msgstr ""
+
+#: include/options_page.php:289
+msgid "Google"
+msgstr ""
+
+#: include/options_page.php:294
+msgid "Text before QR Code "
+msgstr ""
+
+#: include/options_page.php:353
+msgid "URL Service Configuration"
+msgstr ""
+
+#: include/options_page.php:354
+msgid "Select and configure your desired Short URL service."
+msgstr ""
+
+#: include/options_page.php:355
+msgid ""
+"<span class=\"red\">*</span> are required configurations for that service."
+msgstr ""
+
+#: include/options_page.php:360 include/options_page.php:368
+msgid "Select"
+msgstr ""
+
+#: include/options_page.php:361 include/options_page.php:369
+msgid "Services"
+msgstr ""
+
+#: include/options_page.php:363 include/options_page.php:371
+msgid "Configuration"
+msgstr ""
+
+#: include/options_page.php:409 include/options_page.php:435
+msgid "User/ID"
+msgstr ""
+
+#: include/options_page.php:421
+msgid "Key/API"
+msgstr ""
+
+#: include/options_page.php:438
+msgid "Password"
+msgstr ""
+
+#: include/options_page.php:442
+msgid "URL to the YOURLS API"
+msgstr ""
+
+#: include/options_page.php:451
+msgid "Service/Domain"
+msgstr ""
+
+#: include/options_page.php:485
+msgid "No Configuration Needed"
+msgstr ""
+
+#: include/options_page.php:551
+msgid ""
+"<strong>Service Configuration: </strong>Please fill the required User/ID"
+msgstr ""
+
+#: include/options_page.php:559
+msgid ""
+"<strong>Service Configuration: </strong>Please fill in the required API/Key"
+msgstr ""
+
+#: include/options_page.php:576
+msgid "Save Changes"
+msgstr ""
+
+#: include/options_page_help.php:6
+msgid "More Information"
+msgstr ""
+
+#: include/options_page_help.php:7
+msgid ""
+"Additional information and upgrade notes are available via the plugin's <a "
+"href=\"http://salamzadeh.net/plugins/urlyar/docs/url-shortener-wordpress-"
+"plugin\">Wiki Page</a>"
+msgstr ""
+
+#: include/options_page_help.php:9
+msgid ""
+"Do check out the <a href=\"http://salamzadeh.net/plugins/urlyar/docs/url-"
+"shortener-wordpress-plugin/faq\">FAQ</a> and <a href=\"http://salamzadeh.net/"
+"plugins/urlyar/docs/url-shortener-wordpress-plugin/known-issues\">Known "
+"Issues</a> as well"
+msgstr ""
+
+#: include/options_page_help.php:12
+msgid "Version References"
+msgstr ""
+
+#: include/options_page_help.php:14
+msgid "Plugin Version: "
+msgstr ""
+
+#: include/options_page_help.php:18
+msgid "Shortener Modules"
+msgstr ""
+
+#: include/options_page_help.php:22
+msgid "Name"
+msgstr ""
+
+#: include/options_page_help.php:23
+msgid "Description"
+msgstr ""
+
+#: include/options_page_help.php:24
+msgid "ID"
+msgstr ""
+
+#: include/options_page_help.php:46
+msgid "Support"
+msgstr ""
+
+#: include/options_page_help.php:47
+msgid "You can get support for the plugin via the following channels: "
+msgstr ""
+
+#: include/options_page_help.php:48
+msgid ""
+"<a href=\"http://wordpress.org/tags/url-shortener\">WordPress Support Forum</"
+"a>"
+msgstr ""
+
+#: include/options_page_help.php:49
+msgid "<a href=\"https://www.salamzadeh.net/contact/\">Send me a message</a>"
+msgstr ""
+
+#: include/options_page_help.php:51
+msgid ""
+"If you like this plugin and would like to <a href=\"http://salamzadeh.net/"
+"plugins/urlyar/contribute/\">Contribute</a> back, I'll be very grateful!"
+msgstr ""
+
+#: urlyar.php:388 urlyar.php:452
+msgid "Get Shortlink"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://salamzadeh.net/plugins/urlyar"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin provides integration of URL Shorteners (e.g. urlyar.ir, trew.ir, "
+"fsda.ir, saqw.ir and what you want)."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sasan Salamzadeh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.salamzadeh.net"
+msgstr ""
